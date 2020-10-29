@@ -1,16 +1,16 @@
 {
-  "author": "kjeco",
-  "dependencies": {
-    "url-parse": "^1.4.7",
-    "weex-ui": "^0.8.4",
-    "weex-bindingx": "^0.0.49"
-  },
-  "devDependencies": {
-    "uppercamelcase": "^3.0.0"
-  },
-  "deprecated": false,
+  "name": "eco-design",
+  "version": "0.0.1",
   "description": "A rich interaction, lightweight, high performance UI library based on ECO",
-  "homepage": "https://github.com/kjeco/eco-design/",
+  "main": "index.js",
+  "scripts": {
+    "build:entry": "node bin/build-entry.js",
+    "release": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjeco/eco-design.git"
+  },
   "keywords": [
     "ECO",
     "Weex Ui",
@@ -20,18 +20,18 @@
     "Ul Components",
     "UI library"
   ],
+  "author": "kjeco",
+  "homepage": "https://github.com/kjeco/eco-design/",
+  "deprecated": false,
   "lib": "vue",
   "license": "MIT",
-  "main": "index.js",
-  "name": "eco-design",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kjeco/eco-design.git"
-  },
-  "scripts": {
-    "build:entry": "node bin/build-entry.js",
-    "release": "npm publish"
-  },
   "type": "eco",
-  "version": "0.0.1"
+  "dependencies": {
+    "url-parse": "^1.4.7",
+    "weex-ui": "^0.8.4",
+    "weex-bindingx": "^0.0.49"
+  },
+  "devDependencies": {
+    "uppercamelcase": "^3.0.0"
+  }
 }
