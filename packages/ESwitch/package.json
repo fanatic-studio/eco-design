@@ -1,0 +1,9 @@
+{
+  "name": "e-switch",
+  "version": "0.0.1",
+  "description": "在两种状态间切换时用到的开关选择器",
+  "main": "index.js",
+  "type": "eco",
+  "license": "MIT",
+  "dependencies": {}
+}
